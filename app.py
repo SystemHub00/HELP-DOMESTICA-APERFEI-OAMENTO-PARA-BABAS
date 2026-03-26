@@ -2287,7 +2287,7 @@ def confirmacao():
     if not protocolo:
         return redirect(url_for("home"))
 
-    home_url = "https://help-domestica-baba-profissionais.onrender.com"
+    home_url = "https://help-domestica-aperfeicoamento-para-babas.onrender.com"
 
     return render_template_string(
         TEMPLATE_CONFIRMACAO,
